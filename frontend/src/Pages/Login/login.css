@@ -1,0 +1,58 @@
+.container-login {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 5%;
+}
+.login-logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.login-logo img {
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.input-email label {
+  display: flex;
+  font-size: 20px;
+}
+
+.botao {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+.botao button {
+  padding: 15px;
+  padding-left: 60px;
+  padding-right: 60px;
+  border: none;
+  border-radius: 15px;
+  background: rgb(91, 251, 211);
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.botao button:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+.container-login input {
+  margin: 5px;
+  padding: 20px;
+  width: 25vw;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: solid 1px rgb(28, 160, 248);
+  outline: 0;
+}

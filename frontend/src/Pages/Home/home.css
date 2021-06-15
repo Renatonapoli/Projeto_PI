@@ -1,0 +1,26 @@
+.container-home {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  background: rgb(42, 42, 42);
+}
+
+.container-home h2 {
+  justify-content: center;
+  align-items: center;
+  font-size: 55px;
+  padding: 60px;
+  font-family: "Shadows Into Light", cursive;
+  text-align: center;
+  color: white;
+}
+
+.cards-prop {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
