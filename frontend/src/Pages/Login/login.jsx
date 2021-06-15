@@ -40,7 +40,7 @@ const Logar = () => {
           <div className="input-senha">
             <label>Senha</label>
             <input
-              type="text"
+              type="password"
               placeholder="Digite sua senha"
               onChange={(e) => {
                 setPassword(e.target.value);

@@ -3,7 +3,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 import Home from "../Pages/Home/home";
 import Login from "../Pages/Login/login";
-import Cadastro from "../Pages/Cadastro/cadastro";
+import Cadastro from "../Pages/Register/cadastro";
 
 function Routes() {
   return (

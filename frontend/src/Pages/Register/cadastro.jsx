@@ -56,15 +56,16 @@ const Cadastrar = () => {
         />
         <label>Digite uma Senha</label>
         <input
-          type="text"
+          type="password"
           placeholder="Digite sua senha"
+          required
           onChange={(e) => {
             setPasswordReg(e.target.value);
           }}
         />
         <label>Confirmar senha</label>
         <input
-          type="text"
+          type="password"
           placeholder="Confirme sua senha"
           onChange={(e) => {
             setConfPasswordReg(e.target.value);

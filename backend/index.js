@@ -2,7 +2,7 @@ const express = require("express");
 const mysql = require("mysql2");
 const cors = require("cors");
 
-const bcrypt = require("bcryptjs");
+const bcrypt = require("bcrypt");
 const saltRounds = 10;
 
 const app = express();
@@ -49,7 +49,7 @@ app.post("/login", (req, res) => {
     }
 
     if (result.length > 0) {
-      bcrypt.compare(password, result[0].password, (err, response) => {
+      bcrypt.compare(password, result[0].password, (error, result) => {
         if (response) {
           res.send(result);
         } else {
